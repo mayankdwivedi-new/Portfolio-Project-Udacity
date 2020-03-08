@@ -1,0 +1,180 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+/* Color Palatte 
+    #fc5185 - pink
+    #364f6b - dark
+    #43dde6 - sky blue
+    #f0f0f0 - grey
+*/
+/* Font Styles */
+h1 {
+    font-size: 52px;
+    color: #384355;
+}
+h2 {
+    font-size: 40px;
+    margin: auto 0 40px auto;
+    text-align: center;
+}
+
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 22px;
+}
+h5 {
+    font-size: 18px;
+}
+h2,
+h3,
+h4,
+h5 {
+    color: #354052;
+}
+p,
+a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #555;
+    line-height: 1.8;
+}
+/* Common Layouts */
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+/* Common CSS Styles */
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+li {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+}
+
+button {
+    min-width: 120px;
+    border-radius: 15px;
+    background-color: #364f6b;
+    border: none;
+}
+button a {
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+/* Navigation Section */
+nav {
+    padding: 40px 20px;
+    height: auto;
+    position: fixed;
+    background-color: #f0f0f0;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0,0,0,.2);
+    z-index: 50;
+}
+nav .container {
+    padding: 0; 
+    display: flex;
+    justify-content: space-around;
+}
+nav li a:hover {
+    border-bottom: 2px solid #43dde6;
+}
+/* Header */
+#contain {
+    padding: 150px 20px 100px 20px;
+    text-align: center;
+}
+header figure {
+    min-width: 200px;
+    width: 300px;
+    margin: 30px auto 60px auto;
+}
+header figure img {
+    border-radius: 50%;
+}
+header h1 {
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: auto auto 30px auto;
+}
+header p {
+    margin-bottom: 20px;
+}
+header blockquote span {
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* Main Section */
+main {
+    background-color: #f0f0f0;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 30px;
+}
+.code-art,
+.iphone-art {
+    grid-column: 1 / span 2;
+}
+.posts-card {
+    text-align: center;
+    position: relative;
+}
+.posts-card h3 {
+    color: white;
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.posts-card img {
+    filter: brightness(50%);
+}
+.posts-card button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.posts-card button:hover {
+    background-color: #43dde6;
+    
+}
+.posts-card button a:hover {
+    color: #384355;
+}
+
+/* Footer */
+footer {
+    background-color: #364f6b;
+    color: white;
+}
+footer .container {
+    padding: 40px 20px;
+}
+footer ul a {
+    color: white;
+    text-decoration: underline;
+}
+footer ul li:first-child {
+    margin-bottom: 20px;
+}

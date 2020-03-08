@@ -1,12 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/main.css">
-    <title>Personal Blog Site</title>
-</head>
-<body>
-    
-</body>
-</html>
+<p lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+        <title>Personal Blog Site</title>
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav>
+            <ul class="container">
+                <li><a href="">Home</a></li>
+                <li><a href="">Blog Posts</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header Content -->
+        <header class="container" id="contain">
+            <figure>
+                <img src="resources/images/my-pic.png" alt="A Guy is Working on a Mac">
+            </figure>
+            <h1>Welcome to Mayank's Knowledge Base</h1>
+            <p>This blog is built to solidify the learning of Udacity's Front End Nanodgree Program. I hope you like it.</p>
+            <blockquote>"Computer science is a liberal art." - <span>Steve Jobs</span></blockquote>
+        </header>
+        <!-- Main Section -->
+        <main>
+            <!-- Blog Posts Section -->
+            <section class="blog-posts three-column container">
+                <h2>Blog Posts</h2>
+                <div class="wrapper">
+                    <article class="posts-card code-art">
+                        <h3>Will Coding be Relevant in the Future?</h3>
+                        <figure>
+                            <img src="resources/images/code.jpg" alt="">
+                        </figure>
+                        <button><a href="https://hackernoon.com/how-will-coding-be-relevant-in-the-future-74594c2b015f">Read More</a></button>
+                    </article>
+                    <article class="posts-card coder-art">
+                        <h3>5 Steps to Become Freelance Web Developer!</h3>
+                        <figure>
+                            <img src="resources/images/coding.jpg" alt="">
+                        </figure>
+                        <button><a href="https://www.codingdojo.com/blog/how-to-become-a-freelance-web-developer">Read More</a></button>
+                    </article>
+                    <article class="posts-card working-art">
+                        <h3>11 Apps to Increse Your Productivity</h3>
+                        <figure>
+                            <img src="resources/images/productivity.jpg" alt="">
+                        </figure>
+                        <button><a href="https://www.lifehack.org/articles/productivity/11-free-apps-that-will-guarantee-increase-your-productivity.html">Read More</a></button>
+                    </article>
+                    <article class="posts-card iphone-art">
+                        <h3>Steve Jobs, Genius or Jerk?</h3>
+                        <figure>
+                            <img src="resources/images/iphone.jpg" alt="">
+                        </figure>
+                        <button><a href="">Read More</a></button>
+                    </article>
+                </div>       
+            </section>
+        </main>    
+            <footer>
+                <div class="contact-info container">
+                    <ul>
+                        <li>&#169;<span>Mayank Dwivedi</span></li>
+                        <li><a href="mailto:testaddress@mayank.com">Drop a line here!</a></li>
+                        <li><a href="https://www.udacity.com/course/front-end-web-developer-nanodegree--nd0011">Why Should You Learn Web Development?</a></li>
+                    </ul>              
+                </div>
+            </footer>
+    </body>
+
+    </html>
